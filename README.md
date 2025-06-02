@@ -46,10 +46,17 @@ Soporta comunicación entre microservicios y se encuentra listo para ser ejecuta
     ├── docker-compose.yml
     └── pom.xml
 
+---
 
 🐳 Construir imagen
 
 - mvn clean package
 - docker build -t todo-app 
+
+---
+- 📬 Colección Postman para pruebas
+- Dentro de la carpeta raiz encontrarás una colección de Postman (todo-app.postman_collection.json) que puedes importar directamente en Postman para probar todos los endpoints del microservicio.
+
+
 
 
