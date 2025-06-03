@@ -6,10 +6,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.*;
 import java.util.Optional;
+import org.springframework.test.context.ActiveProfiles;
 
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
+@ActiveProfiles("test")
 public class TaskServiceImplTest {
 
   @Mock
